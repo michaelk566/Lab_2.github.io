@@ -1,10 +1,235 @@
-<html>
-<head>
-    <title>Michael Khanzadeh's GitHub Page</title>
-</head>
-<main>
-</main>
-<body>
-    <p>This is my first Github Page!</p>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Michael Khanzadeh's GitHub Page</title>
+        <meta name="description" content="My User Page">
+        <meta name="author" content="Michael Khanzadeh">
+    </head>
+    
+    <body>
+        <header>
+            <h1>This is my first Github Page!</h1>
+            <p>This is my <b>first</b> Github Page!</p>
+            <p>I am a third year cs student at UCSD. </p>
+        </header>
+
+        <p>I've <strong>never</strong> had any web development expierience, but I <strong>love</strong> to learn new things, so I am excited to get a taste of web development. 
+        </p>
+        
+        <hr>
+        
+        <p> I've used <em>many</em> great resources  to help me when I get stuck in programming. Here are links to some of these websites:
+        </p>
+        
+        <nav>
+            <a href="https://stackoverflow.com/">stackoverlow</a> |
+            <a href=https://www.google.com/>google</a> |
+            <a href="https://www.quora.com/">quora</a> |
+            <a href="https://www.codecademy.com/">codecademy</a>
+        
+        </nav>
+        <h2> Experience with Programming:</h2>
+            <p> The following are progamming languages I've had experience with. 
+            </p>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Swift</li>
+            </ul>
+            
+            <p> The following are the languages I know listed in order of my knowledge of them
+            </p>
+            <ol>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>Swift</li>
+            </ol>
+            
+            <p> Here is a table rating my skill in different progamming languages from 1-10. </p>
+            <table>
+                <caption>Lanaguges and Skill Rating</caption>
+                <colgroup>
+                    <col>
+                    <col span="2" class="Java">
+                    <col span="2" class="C">
+                </colgroup>
+                <tr>
+                    <td> </td>
+                    <th scope="col">Java</th>
+                    <th scope="col">Python</th>
+                    <th scope="col">C</th>
+                    <th scope="col">C++</th>
+                </tr>
+                <tr>
+                    <th scope="row">Skill Rating</th>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>6</td>
+                </tr>
+            </table>
+            
+            
+        
+        <h3> Random Things</h3>
+            <p>I attend UCSD. The address for UCSD is:<br> 
+                9500 Gilman Dr<br>
+                La Jolla, CA<br>
+                92093<br>
+                USA<br>
+            </p>
+            
+            <hr>
+            <p> The most common github commands I use are: <br>
+            <code>git add</code> <br>
+            <code>git commit </code> <br>
+            <code>git branch</code> <br>
+            <code>git checkout</code> <br>
+            <code>git status </code> <br>
+            <code>git push</code> <br>
+            
+            </p>
+            
+            <p>Use the following to tell be about yourself through an interactive interface<br></p>
+            <details>
+                <summary>Details</summary>
+                The following questions will tell me about yourself and your coding background
+            </details>
+            <form>
+                <fieldset>
+                    <legend>Info about you</legend>
+                    <p>Whats your name? <br></p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <div>
+                        <input type="checkbox" id="boxTest" name="test" value="newsletter">
+                        <label for="boxTest">New to HTML?</label>
+                    </div>
+                    <div>
+                        <button type="submit">Click Here</button>
+                    </div>
+                    <p>When did you first learn to code?<br></p>
+                    <input type="date" value="2080-05-15"> <br>
+                    
+                    <input id="emailAddress" type="email" multiple><br>
+                    
+                    <label for="ticketNum">Number of tickets you would like to buy:</label>
+                        <input id="ticketNum" type="number" name="ticketNum" value="0"> <br>
+                        
+                    <label for="bday-month">What month were you born in?</label>
+                    <input id="bday-month" type="month" name="bday-month" value="2017-06"> <br>
+                    
+                    <p>Whats your favorite website to learn coding?</p>
+                    <input id="myURL" name="myURL" type="url"> <br>
+                    
+                    <label for="week">What week would you like to start?</label>
+                    <input id="week" type="week" name="week" value="2017-W01"><br>
+                    
+                    <p>Choose youre favorite color!</p>
+                    <input type="color" value="#ff0000"> <br>
+                    
+                    <p>Change the scale to reflect your coding knowledge</p>
+                    <input type="range" min="0" max="10" step="1">
+                    <p>What is your favorite programming language?</p>
+                    <select>
+                        <optgroup label="Backend">
+                            <option>Java</option>
+                            <option>C++</option>
+                            <option>Python</option>
+                            <option>Java</option>
+                        </optgroup>
+                        <optgroup label="FrontEnd">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                        </optgroup>
+                        <optgroup label="App development">
+                            <option>Swift</option>
+                            <option>Objective C</option>
+                            <option>Other Lanague not listed
+                        </optgroup>
+                    </select> <br>
+                    
+                    <label for="FavBrowser">Choose a browser from this list:</label>
+                    <input list="browsers" id="FavBrowser" name="FavBrowser" />
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Safari">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                    </datalist> <br>
+                    
+                     <label for="fact">Tell me an interesting fact</label>
+
+                    <textarea id="fact" name="fact"
+                      rows="5" cols="28">
+                    An interesting fact is...
+                    </textarea>
+                </fieldset>
+            </form> <br>
+            
+           
+
+            <template>
+              <p>This will be hidden content. </p>
+            </template>
+            
+
+            
+            
+    
+            <aside>
+                <p>My favorite book is <i>1984</i> by George Orwell
+                </p>
+            </aside>
+            
+            <p>A fun fact about me is that I love to ski and my favorite place to ski is Mammoth. Below are some pitures of Mammoth that change depending on the size of the window! <br>
+            </p>
+            
+            
+            <picture>
+              <source media="(min-width:650px)" srcset="https://www.mercurynews.com/wp-content/uploads/2018/10/MAMMOTH5.jpg?w=1280">
+              <source media="(min-width:465px)" srcset="https://ktla.com/wp-content/uploads/sites/4/2019/12/mammoth-1.jpg?w=1280&h=720&crop=1">
+              <img src="https://img6.onthesnow.com/image/xl/13/13817.jpg" alt="Mountains" style="width:auto;">
+            </picture>
+            
+            <p>Here is a picture of my favorite sport with an inline frame</p>
+            <iframe src="https://wwmt.com/resources/media/3621b7b3-8e3e-4167-9e38-da94fa9ca069-medium16x9_AP20190736080736.jpg?1594337025125" width="100%" height="300"> 
+            </iframe> 
+            
+            <p>Here is a red circle with a purple outline I made with HTML!</p>
+            <svg width="100" height="100">
+            <circle cx="30" cy="30" r="30" stroke="purple" stroke-width="4" fill="red" />
+            </svg> 
+        
+       
+            <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+        
+        
+        
+        
+        
+        
+        
+        
+        <main>
+            <p>main content</p>
+        </main>
+    
+         <footer>
+            <p>made by Michael Khanzadeh</p>
+        </footer>  
+    </body>
+    
+    
+    
+   
 </html>
